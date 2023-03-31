@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/getxprac/ApiCrubGetXExample/ApiCrubGetXExample.dart';
 import 'package:flutter_application_1/getxprac/CounterExample/CounterExample.dart';
 import 'package:flutter_application_1/getxprac/FavouriteAppExam/FavouriteAppExam.dart';
 import 'package:flutter_application_1/getxprac/HeightWidthGetx/Both.dart';
+import 'package:flutter_application_1/getxprac/ImagePickerExample/ImagePickerExample.dart';
 import 'package:flutter_application_1/getxprac/LocalizationGetx/LocalizationGetx.dart';
 import 'package:flutter_application_1/getxprac/LocalizationGetx/languagess.dart';
 import 'package:flutter_application_1/getxprac/NavigationGetx/NavigationGetx.dart';
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home:  FavouriteAppExam(),
+      home:  ApiCrubGetXExample(),
       //for getx Routes
       // getPages: [
       //   GetPage(name: '/', page: ()=>const NavigationGetx()),
